@@ -3,51 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/media-query.css" media="all">
-    <title>PORTFOLIO</title>
 </head>
 <body>
-    <header id="cabecalhoPrincipal">
-        <h1>Guilherme</h1><nav><a href="#">home</a><a href="#">sobre</a><a href="#">prejetos</a></nav>
+    <header id="cabPrincipal">
+        <h1>Guilherme</h1>
+        <nav id="menu"></nav>
     </header>
-    <main id="containerPrincipal">
-        <scetion id="apresentacao">
-            <img src="" alt="Minha foto">
-            <div id="fundo"><h1 id="bemVindo">WELCOME</h1><div class="mascara"></div></div>
-            <div><a href="#">Contate-me</a></div>
-            <section id="icones">
-                <img src="imagens/icon-wpp" alt="Icone do Whatsapp">
-                <img src="imagens/icon-linkedin" alt="Icone do LinkedIn">
-                <img src="imagens/icon-github" alt="Icone do GitHub">
-            </section>
-        </scetion>
-        <section id="cards">
-            <div class="card-trabalho"></div>
-            <div class="card-sobre"></div>
+    <main id="contPrincipal">
+        <section id="secPrincipal">
+            <img src="imagens/minhafoto-p.png" alt="Minha foto">
+            <div id="iconsEtxt">
+                <h2>WELCOME</h2>
+                <a href="#">Contate-me</a>
+                <div id="icons">
+                    <a href="#"><img src="imagens/icon-whatsapp-p.png" alt="icone do Whatsapp"></a><a href="#"><img src="imagens/icon-linkedin-p.png" alt="icone do LinkedIn"></a><a href="#"><img src="imagens/icon-github-p.png" alt="icone do GitHub"></a>
+                </div>
+            </div>
         </section>
-        <section id="textoPrincipal">
-            <div class="txt">
-                <p>Apaixonado por Desenvolvimento Web. Para mim esse sempre foi um mundo encantador.</p>
+        <section id="sobre">
+            <div class="blocoMaior">
+                <div class="bloco faco">
+                    <h3>O que eu faço</h3>
+                    <img src="imagens/icon-codigo.png" alt="Imagem código">
+                </div>
+                <div class="bloco sobre">
+                    <h3>Sobre mim</h3>
+                    <img src="imagens/icon-sobre.png" alt="">
+                </div>
+            </div>
+            <div class="blocoTxt">
+                <p><img src="imagens/icon-aspas.png" alt="Aspas" class="aspas">Apaixonado por Desenvolvimento Web. Para mim esse sempre foi um mundo encantador.<img src="imagens/icon-aspas.png" alt="Aspas" class="aspas aspas1">
+                </p>
             </div>
         </section>
         <section id="tecnologias">
             <h2>Tecnologias e Linguagens</h2>
-            <section id="aprendidas">
-                <img src="imagens/icon-html" alt="Icone do HTML"><img src="imagens/icon-css" alt="Icone do CSS"><img src="imagens/icon-js" alt="Icone do JavaScript"><img src="imagens/icon-mysql" alt="Icone do MySQL"><img src="imagens/icon-figma" alt="Icone do Figma">
-            </section>
-            <section id="estudando">
-                <img src="imagens/icon-python" alt="Icone do Python"><img src="imagens/icon-c" alt="Icone da linguagem C"><img src="imagens/icon-react" alt="Icone do React"><img src="imagens/icon-php" alt="Icone do PHP"><img src="imagens/icon-botstrap" alt="Icone do Botstrap">
-            </section>
-        </section>  
+            <div id="aprendidas">
+                <h3>Aprendidas</h3>
+                <div class="icons a">
+                    <img src="imagens/icon-html.png" alt="Icone  HTML"><img src="imagens/icon-css.png" alt="icone CSS"><img src="imagens/icon-js.png" alt="icone JS"><img src="imagens/icon-mysql.png" alt="icone MySQL"><div class="cortada"><img src="imagens/icon-figma.png" alt="icone Figma"></div>
+                </div>
+            </div>
+            <div id="estudando">
+                <h3>Estudando</h3>
+                <div class="icons e">
+                    <img src="imagens/icon-python.png" alt="Icone Python"><img src="imagens/icons-c++.png" alt="icone C++"><img src="imagens/icon-react.png" alt="icone React"><img src="imagens/icon-php.png" alt="icone PHP"><div class="cortada"><img src="imagens/icons-bootstrap.png" alt="Icone Bootstrap"></div>
+                </div>
+            </div>
+        </section>
         <section id="projetos">
             <h2>Projetos</h2>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>  
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </section>
     </main>
-    <footer>&copy; por Guilherme Henrique</footer>
-    <script src="script/script.js"></script>
+    <footer id="rodPrincipal">
+        <p>&copy; Por Guilhrme</p>
+    </footer>
 </body>
 </html>
